@@ -34,7 +34,7 @@
     border: 10px solid black;
     height: 97vh;
     display: flex;
-    flex-flow: column wrap;
+    justify-content: center;
 }
 
 .box1{
