@@ -32,12 +32,21 @@
 
 /* Justify-content and Align items */
 
-.container{
+/* .container{
     border: 10px solid black;
     height: 97vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}  */
+
+.container{
+    border: 10px solid black;
+    height: 97vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    gap: 200px 20px;
 } 
 
 .box1{
@@ -64,7 +73,7 @@
 .box4{
     width: 12%;
     height: 100px;
-    margin: 8px;
+    margin: 8px; 
     background-color: blueviolet;
 }
 
