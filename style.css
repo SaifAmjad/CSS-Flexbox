@@ -3,57 +3,88 @@
     padding: 0;
 }
 
-.container{
+/* Flex Direction and Flex */
+
+/* .container{
     border: 10px solid black;
     height: 97vh;
     display: flex;
     flex-direction: column;
+} */
+
+.container{
+    border: 10px solid black;
+    height: 97vh;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .box1{
-    width: 8%;
+    width: 12%;
     height: 100px;
+    margin: 8px;
     background-color: red;
 }
 
 .box2{
-    width: 8%;
+    width: 12%;
     height: 100px;
+    margin: 8px;
     background-color: blue;
 }
 
 .box3{
-    width: 8%;
+    width: 12%;
     height: 100px;
+    margin: 8px;
     background-color: yellow;
 }
 
 .box4{
-    width: 8%;
+    width: 12%;
     height: 100px;
+    margin: 8px;
     background-color: blueviolet;
 }
 
 .box5{
-    width: 8%;
+    width: 12%;
     height: 100px;
+    margin: 8px;
     background-color: peru;
 }
 
 .box6{
-    width: 8%;
+    width: 12%;
     height: 100px;
+    margin: 8px;
     background-color: bisque;
 }
 
 .box7{
-    width: 8%;
+    width: 12%;
     height: 100px;
+    margin: 8px;
     background-color: darkgreen;
 }
 
 .box8{
-    width: 8%;
+    width: 12%;
     height: 100px;
+    margin: 8px;
     background-color: darksalmon;
+}
+
+.box9{
+    width: 12%;
+    height: 100px;
+    margin: 8px;
+    background-color: rosybrown;
+}
+
+.box10{
+    width: 12%;
+    height: 100px;
+    margin: 8px;
+    background-color: darkgreen;
 }
