@@ -30,12 +30,15 @@
     flex-flow: column wrap;
 } */
 
+/* Justify-content and Align items */
+
 .container{
     border: 10px solid black;
     height: 97vh;
     display: flex;
-    justify-content: center;
-}
+    justify-content: space-around;
+    align-items: center;
+} 
 
 .box1{
     width: 12%;
