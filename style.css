@@ -41,80 +41,64 @@
 }  */
 
 .container{
-    border: 10px solid black;
-    height: 97vh;
     display: flex;
-    flex-wrap: wrap;
-    align-content: space-evenly;
-    gap: 200px 20px;
 } 
 
-.box1{
-    width: 12%;
-    height: 100px;
-    margin: 8px;
-    background-color: red;
+.box{
+    width: 10%;
+    height: 6pc;
+    flex-basis: 200px;
 }
 
-.box2{
-    width: 12%;
-    height: 100px;
-    margin: 8px;
-    background-color: blue;
+.box1{
+    background-color: red;
+    flex-grow: 1;
+    flex-shrink: 2;
+   
+}
+.box2{ 
+   background-color: blue;
+   flex-grow: 1;
+   
 }
 
 .box3{
-    width: 12%;
-    height: 100px;
-    margin: 8px;
     background-color: yellow;
+    flex-grow: 2;
+    flex-shrink: 5;
 }
 
 .box4{
-    width: 12%;
-    height: 100px;
-    margin: 8px; 
+   
     background-color: blueviolet;
 }
 
 .box5{
-    width: 12%;
-    height: 100px;
-    margin: 8px;
+    order: 2;
     background-color: peru;
 }
 
 .box6{
-    width: 12%;
-    height: 100px;
-    margin: 8px;
+    
     background-color: bisque;
 }
 
 .box7{
-    width: 12%;
-    height: 100px;
-    margin: 8px;
+    
     background-color: darkgreen;
 }
 
 .box8{
-    width: 12%;
-    height: 100px;
-    margin: 8px;
+   
     background-color: darksalmon;
 }
 
 .box9{
-    width: 12%;
-    height: 100px;
-    margin: 8px;
+    
     background-color: rosybrown;
 }
 
 .box10{
-    width: 12%;
-    height: 100px;
-    margin: 8px;
+    
     background-color: darkgreen;
 }
